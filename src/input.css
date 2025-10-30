@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* npx tailwindcss -i ./src/input.css -o ./src/output.css --watch */
+
+body {
+    color: #1F1F21;
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.roboto {
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.marker {
+    background: linear-gradient(transparent 70%, #FFF 70%);
+}
+
+.marker-green {
+    background: linear-gradient(transparent 70%, #D6E86B 70%);
+}
+
+.break-bg{
+    background-image: url(./images/break-bg.svg);
+    background-repeat: repeat;
+    position: relative;
+    background-size: auto;
+    background-position: left;
+}
