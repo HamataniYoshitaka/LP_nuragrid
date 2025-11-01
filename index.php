@@ -273,7 +273,7 @@
             </div>
         </div>
     </div>
-    <div class="relative">
+    <div class="relative" style="background-image: url(./src/images/bg-mesh.png); background-repeat: repeat; background-size:  38px 38px;">
         <img src="./src/images/bg-broom.webp" alt="" class="w-full h-32 absolute top-0 left-0">
         <div class="py-20 relative flex flex-col items-center">
             <p class="text-[#0D84FF] roboto text-2xl">SOLUTION</p>
@@ -623,7 +623,7 @@
             </div>
         </div>
     </div>
-    <div class="relative">
+    <div class="relative" style="background-image: url(./src/images/bg-mesh.png); background-repeat: repeat; background-size:  38px 38px;">
         <div class="w-[1200px] mx-auto pt-20 relative">
             <p class="text-[#0D84FF] roboto text-2xl text-center">HOW TO</p>
             <p class="text-3xl pt-4 text-center">どうやって使いこなすのか？</p>
@@ -635,11 +635,13 @@
             </div>
         </div>
     </div>
-    <div class="bg-[#BBC6D6] relative">
-        <div class="w-[800px] mx-auto pt-20 relative text-center">
-            <p class="text-[#0D84FF] roboto text-2xl ">SECURITY</p>
-            <p class="text-3xl pt-4 ">さらに世界基準のセキュリティレベル</p>
-            <p class="text-lg font-medium pt-16 ">既存の生成AIからは情報流出リスクがあります。AIは質問された内容も記憶していきます。</p>
+    <div class="relative" style="background-image: url(./src/images/bg-noise.webp); background-repeat: repeat; background-size: 512px 512px;">
+        <div class="absolute top-0 left-0 w-full h-full bg-gradient-to-b from-[#D2DAE9]  via-[#BEC9D1] to-white opacity-50"></div>
+        <div class="absolute inset-0 bg-gradient-to-b from-transparent to-white"></div>
+        <div class="w-[800px] mx-auto py-20 relative">
+            <p class="text-[#0D84FF] roboto text-2xl text-center">SECURITY</p>
+            <p class="text-3xl pt-4 text-center">さらに世界基準のセキュリティレベル</p>
+            <p class="text-lg font-medium pt-16 text-center">既存の生成AIからは情報流出リスクがあります。AIは質問された内容も記憶していきます。</p>
             <div class="pt-16 flex flex-col items-center relative">
                 <div class="relative">
                     <p class="text-xl bg-white w-80 py-6 rounded-2xl text-center relative z-50">会社の財務分析をAIに依頼</p>
@@ -675,7 +677,7 @@
                     </clipPath>
                     </defs>
                 </svg>
-                <div class="relative pb-16 z-20">
+                <div class="relative pb-16 z-20 text-center">
                     <p class="text-3xl ">第三者にあなたの会社の財務情報が公開されるリスク</p>
                     <p class="text-lg font-medium pt-4">このリスクに対して、OpenAIのCEOであるサム・アルトマン氏は、ポッドキャスト『This Past Weekend』で「<span class="marker-green">AIとのやりとりにも医者や弁護士との会話と同じレベルのプライバシー保護が必要だ</span>」と強調しました。つまり、情報漏洩のリスクがあることを公に認めているのです。</p>
                 </div>
@@ -694,14 +696,287 @@
                         <p class="text-3xl">Nuraなら情報漏洩対策も安心です</p>
                     </div>
                 </div>
-                <div class="border-2 border-shark-950 rounded-xl bg-white">
-
+                <div class="border-2 border-shark-950 rounded-xl bg-white -mt-6 overflow-hidden">
+                    <div class="flex px-8 pt-14">
+                        <p class="w-56 text-start">データ保護</p>
+                        <ul class="list-disc text-wrap text-start">
+                            <li>各社ごとに完全隔離</li>
+                            <li>暗号化ディスクストレージ</li>
+                            <li>AIとのやりとりデータの外部流出防止設定</li>
+                        </ul>
+                    </div>
+                    <hr class="border-shark-950 w-full my-4"/>
+                    <div class="flex px-8">
+                        <p class="w-56 text-start">ネットワークセキュリティ</p>
+                        <ul class="list-disc text-wrap text-start">
+                            <li>完全ログ制御</li>
+                            <li>プライベートネットワークアクセス</li>
+                            <li>VPN/ファイアーウォール保護</li>
+                            <li>カスタムSSL/TLE設定</li>
+                        </ul>
+                    </div>
+                    <hr class="border-shark-950 w-full my-4"/>
+                    <div class="flex px-8">
+                        <p class="w-56 text-start">部門別データ保護</p>
+                        <ul class="list-disc text-wrap text-start">
+                            <li>設定により部門ごとのデータ保護が可能</li>
+                            <li>人事・財務・医療など機密情報の完全隔離</li>
+                        </ul>
+                    </div>
+                    <hr class="border-shark-950 w-full mt-4"/>
+                    <div class="flex ">
+                        <p class="text-white text-2xl bg-[#0D84FF] px-5 py-6 shrink-0">結論</p>
+                        <div class="relative w-full flex justify-center items-center">
+                            <svg class="absolute top-0 left-0" width="16" height="80" viewBox="0 0 16 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M-3.49691e-06 0L0 80L16 39.8889L-3.49691e-06 0Z" fill="#0D84FF"/>
+                            </svg>
+                            <p class="text-[#0072E8] text-xl ">セキュリティポリシーの高い組織でも安全にご利用いただけます。</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+    <div class="relative bg-white">
+        <div class="bg-broom-500 rounded-t-3xl py-20 relative">
+            <p class="text-[#0D84FF] roboto text-2xl text-center">ADVANTAGE</p>
+            <p class="text-3xl pt-4 text-center">なぜNuraGridは他のAIと圧倒的に違うのか？</p>
+            <div class="w-[1200px] mx-auto grid grid-cols-3 gap-5 pt-16 items-stretch">
+                <div class="flex flex-col">
+                    <p class="roboto text-5xl ml-3">Point01</p>
+                    <div class="border-2 border-shark-950 bg-white rounded-2xl p-8 -mt-2 flex-1 flex flex-col">
+                        <p class="text-xl">エンジンレベルでの差別化</p>
+                        <ul class="list-disc text-wrap pl-5 font-light pt-3 pb-8">
+                            <li>ChatGPT、Gemini、Claude等のAPIを利用。</li>
+                            <li>その上に独自のチューンナップを追加。</li>
+                            <li>元のAIが高度化すればNuraも強化されます。</li>
+                        </ul>
+                        <div class="grow"></div>
+                        <img src="./src/images/advantage1.svg" alt="" class="w-72 mx-auto">
+                    </div>
+                </div>
+                <div class="flex flex-col">
+                    <p class="roboto text-5xl ml-3">Point02</p>
+                    <div class="border-2 border-shark-950 bg-white rounded-2xl p-8 -mt-2 flex-1 flex flex-col">
+                        <p class="text-xl">独自のベンチマークシステムで改善</p>
+                        <ul class="list-disc text-wrap pl-5 font-light pt-3 pb-8">
+                            <li>ChatGPT、Gemini、Claude等のAPIを利用。</li>
+                            <li>その上に独自のチューンナップを追加。</li>
+                            <li>元のAIが高度化すればNuraも強化されます。</li>
+                        </ul>
+                        <div class="grow"></div>
+                        <img src="./src/images/advantage2.svg" alt="" class="w-72 mx-auto">
+                    </div>
+                </div>
+                <div class="flex flex-col">
+                    <p class="roboto text-5xl ml-3">Point03</p>
+                    <div class="border-2 border-shark-950 bg-white rounded-2xl p-8 -mt-2 flex-1 flex flex-col">
+                        <p class="text-xl">専門ツール連携</p>
+                        <ul class="list-disc text-wrap pl-5 font-light pt-3 pb-8">
+                            <li>各種専門外部ツールと自動連携。</li>
+                            <li>100以上の外部ツール情報を元に判断。</li>
+                            <li>従来の生成AIより高精度なアウトプットを作成。</li>
+                        </ul>
+                        <div class="grow"></div>
+                        <img src="./src/images/advantage3.svg" alt="" class="w-72 mx-auto">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="relative bg-[#E2E8F2]">
+        <img src="./src/images/productivity-bg.svg" alt="" class="w-[664px] h-auto absolute top-0 -left-40">
+        <img src="./src/images/productivity-bg.svg" alt="" class="w-[664px] h-auto absolute top-0 right-0">
+        <div class="py-20 relative">
+            <p class="text-[#0D84FF] roboto text-2xl text-center">USABILITY</p>
+            <p class="text-3xl pt-4 text-center">法人利用専門AIならではの使いやすさ</p>
+            <div class="w-[800px] mx-auto pt-16">
+                <div class="flex justify-between">
+                    <div class="rounded-lg overflow-hidden">
+                        <p class="bg-[#BFC8D9] text-center text-xl py-1">AIの個人利用</p>
+                        <div class="flex items-center gap-8 bg-white p-8">
+                            <img src="./src/images/usability1.svg" alt="" class="w-auto h-28">
+                            <p class="text-lg font-medium">恋愛相談など<br/>多様な使い方<br/>万能型AIが必要</p>
+                        </div>
+                    </div>
+                    <div class="rounded-lg overflow-hidden">
+                        <p class="bg-broom-500 text-center text-xl py-1">AIの法人利用</p>
+                        <div class="flex items-center gap-8 bg-white p-8">
+                            <img src="./src/images/usability2.svg" alt="" class="w-auto h-28">
+                            <p class="text-xl">余計な万能さは<br/>ノイズになる</p>
+                        </div>
+                    </div>
+                </div>
+                <p class="text-lg font-medium pt-10 leading-loose">万能型AIは聞こえは良いですが、<span class="font-bold">用途別チューンナップAIとは性能が全く異なります</span>。<br/>NURA.seoやNURA.financeのように専門ツールとリンクし、<span class="font-bold marker-green">ノイズを排除した慎重な設計</span>となっており、その<span class="font-bold marker-green">性能差は圧倒的なアウトプット品質の差</span>としてあらわれます。</p>
+            </div>
+        </div>
+    </div>
+    <div class="relative" style="background-image: url(./src/images/bg-mesh.png); background-repeat: repeat; background-size:  38px 38px;">
+        <div class="w-[1200px] mx-auto py-20 relative">
+            <p class="text-[#0D84FF] roboto text-2xl text-center">LEVELS</p>
+            <p class="text-3xl pt-4 text-center">ユーザーの活用レベルごとの使いこなし方</p>
+            <div class="pt-16 w-[1000px] mx-auto space-y-6">
+                <div class="flex bg-white border-2 border-shark-950 rounded-lg overflow-hidden">
+                    <div class="relative w-60 h-auto bg-broom-500 bg-opacity-20 pl-5 list-disc text-wrap flex justify-center items-center shrink-0">
+                        <p class="absolute top-0 left-0 roboto text-7xl text-white">Lv01</p>
+                        <p class="relative text-2xl">ビギナー</p>
+                    </div>
+                    <div class="p-5">
+                        <div class="flex items-center gap-5">
+                            <p class="text-base bg-broom-500 bg-opacity-30 w-28 h-max text-center">使用ツール</p>
+                            <p class="text-lg">コアエージェント「NURA」</p>
+                        </div>
+                        <div class="flex gap-5 pt-3">
+                            <p class="text-base bg-broom-500 bg-opacity-30 w-28 h-max text-center shrink-0">効果</p>
+                            <ul class="text-sm font-light pl-5 list-disc text-wrap">
+                                <li>ユーザーのリクエストに合った最適な処理を自動実行。</li>
+                                <li>嘘（ハルシネーション）を防止する仕様により高精度で信頼がおけるアウトプット。</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex bg-white border-2 border-shark-950 rounded-lg overflow-hidden">
+                    <div class="relative w-60 h-auto bg-broom-500 bg-opacity-40 pl-5 list-disc text-wrap flex justify-center items-center shrink-0">
+                        <p class="absolute top-0 left-0 roboto text-7xl text-white">Lv02</p>
+                        <p class="relative text-2xl">中級者</p>
+                    </div>
+                    <div class="p-5">
+                        <div class="flex items-center gap-5">
+                            <p class="text-base bg-broom-500 bg-opacity-30 w-28 h-max text-center">使用ツール</p>
+                            <p class="text-lg">プロンプトライブラリー</p>
+                        </div>
+                        <div class="flex gap-5 pt-3">
+                            <p class="text-base bg-broom-500 bg-opacity-30 w-28 h-max text-center shrink-0">効果</p>
+                            <ul class="text-sm font-light pl-5 list-disc text-wrap">
+                                <li>サイドメニューから｢やりたいこと｣を選ぶだけで高精度なアウトプット。</li>
+                                <li>定期的アップデートで随時プロンプトライブラリーを拡張。</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex bg-white border-2 border-shark-950 rounded-lg overflow-hidden">
+                    <div class="relative w-60 h-auto bg-broom-500 bg-opacity-60 pl-5 list-disc text-wrap flex justify-center items-center shrink-0">
+                        <p class="absolute top-0 left-0 roboto text-7xl text-white">Lv03</p>
+                        <p class="relative text-2xl">上級者</p>
+                    </div>
+                    <div class="p-5">
+                        <div class="flex items-center gap-5">
+                            <p class="text-base bg-broom-500 bg-opacity-30 w-28 h-max text-center">使用ツール</p>
+                            <p class="text-lg">各種専門AIエージェントの使い分け</p>
+                        </div>
+                        <div class="flex gap-5 pt-3">
+                            <p class="text-base bg-broom-500 bg-opacity-30 w-28 h-max text-center shrink-0">効果</p>
+                            <ul class="text-sm font-light pl-5 list-disc text-wrap">
+                                <li>プロンプト × 専門エージェント の組み合わせでさらに高精度なアウトプット。</li>
+                                <li>専門エージェントが文脈を推測して役割にあった作業を支援。</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex bg-white border-2 border-shark-950 rounded-lg overflow-hidden">
+                    <div class="relative w-60 h-auto bg-broom-500 bg-opacity-80 pl-5 list-disc text-wrap flex justify-center items-center shrink-0">
+                        <p class="absolute top-0 left-0 roboto text-7xl text-white">Lv04</p>
+                        <p class="relative text-2xl">エキスパート</p>
+                    </div>
+                    <div class="p-5">
+                        <div class="flex items-center gap-5">
+                            <p class="text-base bg-broom-500 bg-opacity-30 w-28 h-max text-center">使用ツール</p>
+                            <p class="text-lg">プロンプト作成用エージェント｢Nura.promptpilot｣を使用</p>
+                        </div>
+                        <div class="flex gap-5 pt-3">
+                            <p class="text-base bg-broom-500 bg-opacity-30 w-28 h-max text-center shrink-0">効果</p>
+                            <ul class="text-sm font-light pl-5 list-disc text-wrap">
+                                <li>自社のタスクにあったプロンプトをAIの力を借りながら作成。</li>
+                                <li>作成したプロンプトを社内共有することで全社の生産性向上を実現。</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex bg-white border-2 border-shark-950 rounded-lg overflow-hidden">
+                    <div class="relative w-60 h-auto bg-broom-500 pl-5 list-disc text-wrap flex justify-center items-center shrink-0">
+                        <p class="absolute top-0 left-0 roboto text-7xl text-white">Lv05</p>
+                        <p class="relative text-2xl">マスター</p>
+                    </div>
+                    <div class="p-5">
+                        <div class="flex items-center gap-5">
+                            <p class="text-base bg-broom-500 bg-opacity-30 w-28 h-max text-center">使用ツール</p>
+                            <p class="text-lg">AIエージェントの作成用｢Nura.agentarchitect｣を使用</p>
+                        </div>
+                        <div class="flex gap-5 pt-3">
+                            <p class="text-base bg-broom-500 bg-opacity-30 w-28 h-max text-center shrink-0">効果</p>
+                            <ul class="text-sm font-light pl-5 list-disc text-wrap">
+                                <li>さらに高度な業務を行わせるために自社オリジナルのAIエージェントを作成。</li>
+                                <li>エージェント作成専用のエージェントとエージェントビルダーにより誰でも作成可能。</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="relative bg-white">
+        <div class="bg-broom-500 rounded-t-3xl py-20 relative">
+            <p class="text-[#0D84FF] roboto text-2xl text-center">CONTACT</p>
+            <p class="text-3xl pt-4 text-center">NuraGridを体験しませんか？</p>
+            <div class="w-[800px] mx-auto pt-16">
+                <p class="text-lg font-medium leading-relaxed"><span class="marker font-bold">高度にチューンナップされたAI</span>でありながら、容易に使いこなすことができる。これがNuraGridの最大の特徴です。<br/>画像生成、ライティング、ファイナンス分析など、NuraGridなら<span class="marker font-bold">各分野の専門家を雇ったような効果</span>が得られます。一度NuraGridを体験していただき、その圧倒的な性能差を実感してください。<span class="marker font-bold">皆様の業務生産性が劇的に向上する</span>瞬間を、ぜひ体験してみてください。</p>
+                <!-- お問い合わせフォーム -->
+            </div>
+        </div>
+    </div>
+    <div class="bg-shark-950 pt-16 pb-20 px-32">
+        <img src="./src/images/company-logo.svg" alt="" class="w-56 h-auto">
+        <div class="pt-10 flex gap-11">
+            <p class="font-medium text-2xl text-white">株式会社APOLLO11</p>
+            <table class="text-white text-base font-light">
+                <tr class="border-b border-[#BFC8D933]">
+                    <th class="w-36 align-top text-left py-3">
+                        住所
+                    </th>
+                    <td class="py-3">
+                        本社：愛知県名古屋市昭和区桜山町5-99-6桜山駅前ビル6F<br/>
+                        StationAIオフィス：愛知県名古屋市昭和区鶴舞1丁目2番32号<br/>
+                        東京オフィス：東京都目黒区自由が丘1丁目3-22 自由が丘アッシュ201
+                    </td>
+                </tr>
+                <tr class="border-b border-[#BFC8D933]">
+                    <th class="w-36 align-top text-left py-3">
+                        役員構成
+                    </th>
+                    <td class="py-3">
+                        代表取締役 吉丸彰<br/>取締役CTO EWDISON THEN
+                    </td>
+                </tr>
+                <tr class="border-b border-[#BFC8D933]">
+                    <th class="w-36 align-top text-left py-3">
+                        設立
+                    </th>
+                    <td class="py-3">
+                        2011年4月28日
+                    </td>
+                </tr>
+                <tr class="border-b border-[#BFC8D933]">
+                    <th class="w-36 align-top text-left py-3">
+                        事業内容
+                    </th>
+                    <td class="py-3">
+                        SaaS事業、AIプラットフォーム開発
+                    </td>
+                </tr>
+                <tr class="border-b border-[#BFC8D933]">
+                    <th class="w-36 align-top text-left py-3">
+                        取引銀行
+                    </th>
+                    <td class="py-3">
+                        名古屋銀行 川原通支店 / 中京銀行 今池支店
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <p class="text-[#FFFFFFB2] font-light text-base text-end pt-14">Copyright(C) APOLLO11 all rights reserved.</p>
 
 
+    </div>
 
 
 
