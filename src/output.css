@@ -959,6 +959,14 @@ video {
   bottom: 2.5rem;
 }
 
+.bottom-8 {
+  bottom: 2rem;
+}
+
+.bottom-3 {
+  bottom: 0.75rem;
+}
+
 .isolate {
   isolation: isolate;
 }

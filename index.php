@@ -680,7 +680,7 @@
                     </linearGradient>
                     </defs>
                 </svg>
-                <svg class="-rotate-12 absolute left-1/2 -translate-x-1/2 bottom-14 md:bottom-0 z-10 w-full md:w-72 h-auto" width="307" height="287" viewBox="0 0 307 287" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg class="-rotate-12 absolute left-1/2 -translate-x-1/2 bottom-3 md:bottom-0 z-10 w-80 md:w-72 h-auto px-1" viewBox="0 0 307 287" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g opacity="0.5" clip-path="url(#clip0_12_2593)">
                     <path d="M299.927 185.963L206.73 187.989L185.912 282.666L136.327 190.772L34.3055 217.489L102.825 128.893L99.2894 35.818L170.931 96.4204L239.394 42.5957L225.625 121.938L299.927 185.963Z" fill="white"/>
                     <path d="M251.577 261.534L174.2 205.502L92.2322 257.854L90.4558 178.279L-5.8383 145.434L137.977 98.5219L164.206 -0.135129L200.434 113.288L302.699 95.0401L229.65 166.616L251.577 261.534Z" fill="white"/>
