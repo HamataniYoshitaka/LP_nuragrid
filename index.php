@@ -74,16 +74,16 @@
         </div>
         <div class="max-w-[1200px] mx-auto pt-6 md:pt-12 pb-5 md:pb-6 grid grid-cols-2 md:grid-cols-3 justify-center items-center gap-2 md:gap-0">
             <div class="flex justify-center">
-                <div class="relative w-40 md:w-80 h-40 md:h-80 rounded-full bg-white flex flex-col justify-center items-center">
-                    <div class="absolute w-40 md:w-80 h-40 md:h-80 rounded-full border border-black -top-1 md:-top-2 -left-1 md:-left-2"></div>
+                <div class="relative w-40 md:w-60 lg:w-80 h-40 md:h-60 lg:h-80 rounded-full bg-white flex flex-col justify-center items-center shrink-0">
+                    <div class="absolute w-40 md:w-60 lg:w-80 h-40 md:h-60 lg:h-80 rounded-full border border-black -top-1 md:-top-2 -left-1 md:-left-2"></div>
                     <p class="text-xl md:text-5xl"><span class="roboto text-4xl md:text-7xl">2,000</span>社</p>
                     <p class="text-xl md:text-3xl ">以上と取引</p>
                     <p class="text-[10px] md:text-xs font-light text-center pt-4">APOLLO11株式会社実績<br/>2025年8月末日現在</p>
                 </div>
             </div>
             <div class="flex justify-center">
-                <div class="relative w-40 md:w-80 h-40 md:h-80 rounded-full bg-white flex flex-col justify-center items-center">
-                    <div class="absolute w-40 md:w-80 h-40 md:h-80 rounded-full border border-black -top-1 md:-top-2 -left-1 md:-left-2"></div>
+                <div class="relative w-40 md:w-60 lg:w-80 h-40 md:h-60 lg:h-80 rounded-full bg-white flex flex-col justify-center items-center shrink-0">
+                    <div class="absolute w-40 md:w-60 lg:w-80 h-40 md:h-60 lg:h-80 rounded-full border border-black -top-1 md:-top-2 -left-1 md:-left-2"></div>
                     <p class="text-xl md:text-2xl">上場企業</p>
                     <p class="text-xl md:text-5xl"><span class="roboto text-4xl md:text-7xl">100</span>社</p>
                     <p class="text-xl md:text-3xl">以上と取引</p>
@@ -91,21 +91,21 @@
                 </div>
             </div>
             <div class="col-span-2 md:col-span-1 flex justify-center">
-                <div class="relative w-40 md:w-80 h-40 md:h-80 rounded-full bg-white flex flex-col justify-center items-center">
-                    <div class="absolute w-40 md:w-80 h-40 md:h-80 rounded-full border border-black -top-1 md:-top-2 -left-1 md:-left-2"></div>
+                <div class="relative w-40 md:w-60 lg:w-80 h-40 md:h-60 lg:h-80 rounded-full bg-white flex flex-col justify-center items-center shrink-0">
+                    <div class="absolute w-40 md:w-60 lg:w-80 h-40 md:h-60 lg:h-80 rounded-full border border-black -top-1 md:-top-2 -left-1 md:-left-2"></div>
                     <p class="text-xl md:text-2xl">搭載AI</p>
                     <p class="roboto text-6xl md:text-9xl">8</p>
                     <p class="text-xs font-light text-center pt-1 md:pt-4">NuraGrid搭載生成AI</p>
-                    <img src="./src/images/ai-1.svg" alt="" class="w-12 md:w-16 h-auto absolute left-3 md:left-10 bottom-12 md:bottom-28">
-                    <img src="./src/images/ai-2.svg" alt="" class="w-14 md:w-24 h-auto absolute right-2 md:right-6 top-12 md:top-20">
+                    <img src="./src/images/ai-1.svg" alt="" class="w-12 xl:w-16 h-auto absolute left-3 md:left-10 bottom-12 md:bottom-28">
+                    <img src="./src/images/ai-2.svg" alt="" class="w-14 xl:w-24 h-auto absolute right-2 md:right-6 top-12 md:top-20">
                 </div>
             </div>
         </div>
     </div>
     <div class="w-full h-24 bg-shark-950 flex justify-center items-center">
-        <p class="text-white text-2xl md:text-4xl text-center">これからの時代<span class="text-broom-500">AI活用の成否</span>が<br class="block md:hidden"/><span class="text-broom-500">ビジネスの成否</span>を決める</p>
+        <p class="text-white text-2xl md:text-4xl text-center">これからの時代<span class="text-broom-500">AI活用の成否</span>が<br class="block xl:hidden"/><span class="text-broom-500">ビジネスの成否</span>を決める</p>
     </div>
-    <div class="w-full md:w-[800px] md:mx-auto text-center px-6 xl:px-0 py-12 md:py-20">
+    <div class="max-w-[800px] md:mx-auto text-center px-6 xl:px-0 py-12 md:py-20">
         <p class="text-[#0D84FF] roboto text-2xl">ISSUE</p>
         <p class="text-2xl md:text-3xl pt-2 md:pt-4">企業がAIを活用するうえで<br class="block md:hidden"/>直面する大問題</p>
         <div class="relative flex justify-center mt-20 md:mt-9">
@@ -155,23 +155,23 @@
     <div class="pt-12 md:pt-20 pb-4 md:pb-12 px-6 xl:px-0 bg-[#FFFDEF]">
         <div class="max-w-[1105px] mx-auto">
             <p class="text-[#0D84FF] roboto text-2xl text-center">TRANSITION</p>
-            <p class="text-2xl md:text-3xl pt-2 md:pt-4 text-center">一方で、大企業は既にAIで人材を置き換えている現実があります</p>
-            <div class="pt-16 flex flex-col md:flex-row justify-between gap-6">
-                <div class="w-full md:w-[352px] border-2 border-shark-950 rounded-2xl overflow-hidden">
+            <p class="text-2xl md:text-3xl pt-2 md:pt-4 text-center">一方で、大企業は既にAIで人材を<br class="block xl:hidden"/>置き換えている現実があります</p>
+            <div class="pt-16 flex flex-col xl:flex-row justify-between gap-6">
+                <div class="w-full xl:w-[352px] border-2 border-shark-950 rounded-2xl overflow-hidden">
                     <div class="px-6 py-3 md:py-4 bg-shark-950 flex items-center gap-2">
                         <p class="text-base bg-white px-2 py-1">2023年</p>
                         <p class="text-3xl tracking-widest text-white roboto">IBM</p>
                     </div>
                     <p class="text-sm md:text-base font-light p-4 md:p-6 bg-white h-full !leading-loose">人事や経理などのバックオフィス部門で、<span class="font-bold underline">約7,800人分の採用を一時停止。</span><br/><span class="font-bold underline">「今後5年間でAIによる自動化が可能」</span>とCEOが明言。</p>
                 </div>
-                <div class="w-full md:w-[352px] border-2 border-shark-950 rounded-2xl overflow-hidden">
+                <div class="w-full xl:w-[352px] border-2 border-shark-950 rounded-2xl overflow-hidden">
                     <div class="px-6 py-3 md:py-4 bg-shark-950 flex items-center gap-2">
                         <p class="text-base bg-white px-2 py-1">2025年</p>
                         <p class="text-3xl tracking-widest text-white roboto">Microsoft</p>
                     </div>
                     <p class="text-sm md:text-base font-light p-4 md:p-6 bg-white h-full !leading-loose">｢AIに関する支出増」を理由に、営業部門を中心に数千人規模の追加人員削減を計画。<span class="font-bold underline">人よりもAI投資を優先。</span></p>
                 </div>
-                <div class="w-full md:w-[352px] border-2 border-shark-950 rounded-2xl overflow-hidden">
+                <div class="w-full xl:w-[352px] border-2 border-shark-950 rounded-2xl overflow-hidden">
                     <div class="px-6 py-3 md:py-4 bg-shark-950 flex items-center gap-2">
                         <p class="text-base bg-white px-2 py-1">2025年</p>
                         <p class="text-3xl tracking-widest text-white roboto">Amazon</p>
@@ -179,7 +179,7 @@
                     <p class="text-sm md:text-base font-light p-4 md:p-6 bg-white h-full !leading-loose">CEOが全社員向けの書簡で<span class="font-bold underline">「AI活用による人員削減の可能性」</span>に直接言及。<br/>あらゆる職種がAI代替の対象になると示唆。</p>
                 </div>
             </div>
-            <div class="pt-6 md:pt-16 ">
+            <div class="pt-6 xl:pt-16 ">
                 <div class="bg-white border-2 border-shark-950 rounded-2xl flex flex-col md:flex-row items-center gap-4 md:gap-10 px-4 md:px-8 py-6 md:py-8">
                     <div>
                         <p class="text-xl md:text-2xl">なぜ先端大企業は「現時点のAI」で人材削減を決断できるのか？</p>
@@ -245,7 +245,7 @@
             </div>
             <div class="flex flex-col md:flex-row items-center justify-between pt-5 md:pt-0">
                 <img src="./src/images/reason.svg" alt="" class="w-60 md:w-80 h-auto">
-                <p class="text-2xl md:text-4xl text-white leading-relaxed pt-4 md:pt-0">だからこそ、今からAI活用を<br class="hidden md:block"/>しないと競争力が失われて<br class="hidden md:block"/>しまいます</p>
+                <p class="text-2xl md:text-3xl xl:text-4xl text-white leading-relaxed pt-4 md:pt-0">だからこそ、今からAI活用を<br class="hidden md:block"/>しないと競争力が失われて<br class="hidden md:block"/>しまいます</p>
             </div>
         </div>
     </div>
@@ -255,25 +255,25 @@
             <p class="text-2xl md:text-3xl pt-2 md:pt-4 text-center">もしもAIの3大問題が<br class="block md:hidden"/>解決されたら？</p>
             <div class="w-full pt-6 md:pt-16 space-y-8">
                 <div class="flex flex-col md:flex-row justify-center md:justify-start items-center h-auto md:h-16 bg-white border-2 border-shark-950 rounded-lg overflow-hidden">
-                    <p class="font-light text-xl md:text-2xl text-white bg-[#1F1F21] w-full md:w-[400px] h-full py-3 pl-0 md:pl-10 flex justify-center md:justify-start items-center">AIが平気で嘘をついてくる</p>
+                    <p class="font-light text-xl xl:text-2xl text-white bg-[#1F1F21] w-full md:w-80 xl:w-[400px] h-full py-3 pl-0 md:pl-10 flex justify-center md:justify-start items-center">AIが平気で嘘をついてくる</p>
                     <svg class="w-3 md:w-4 h-auto rotate-90 md:rotate-0 -m-5 md:-m-0" viewBox="0 0 16 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M-2.79753e-06 0L0 64L16 31.9111L-2.79753e-06 0Z" fill="#1F1F21"/>
                     </svg>
-                    <p class="text-xl md:text-2xl text-[#008BAB] h-full flex items-center pl-0 md:pl-10 pt-4 md:pt-0 pb-3 md:pb-0">AIが真実のみを回答</p>
+                    <p class="text-xl xl:text-2xl text-[#008BAB] h-full flex items-center pl-0 md:pl-10 pt-4 md:pt-0 pb-3 md:pb-0">AIが真実のみを回答</p>
                 </div>
                 <div class="flex flex-col md:flex-row justify-center md:justify-start items-center h-auto md:h-16 bg-white border-2 border-shark-950 rounded-lg overflow-hidden">
-                    <p class="font-light text-xl md:text-2xl text-white bg-[#1F1F21] w-full md:w-[400px] h-full py-3 pl-0 md:pl-10 flex justify-center md:justify-start items-center">AIが指示とずれた回答</p>
+                    <p class="font-light text-xl xl:text-2xl text-white bg-[#1F1F21] w-full md:w-80 xl:w-[400px] h-full py-3 pl-0 md:pl-10 flex justify-center md:justify-start items-center">AIが指示とずれた回答</p>
                     <svg class="w-3 md:w-4 h-auto rotate-90 md:rotate-0 -m-5 md:-m-0" viewBox="0 0 16 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M-2.79753e-06 0L0 64L16 31.9111L-2.79753e-06 0Z" fill="#1F1F21"/>
                     </svg>
-                    <p class="text-xl md:text-2xl text-[#008BAB] h-full flex items-center pl-0 md:pl-10 pt-4 md:pt-0 pb-3 md:pb-0">AIが正確に理解して回答してくる</p>
+                    <p class="text-xl xl:text-2xl text-[#008BAB] h-full flex items-center pl-0 md:pl-10 pt-4 md:pt-0 pb-3 md:pb-0">AIが正確に理解して回答してくる</p>
                 </div>
                 <div class="flex flex-col md:flex-row justify-center md:justify-start items-center h-auto md:h-16 bg-white border-2 border-shark-950 rounded-lg overflow-hidden">
-                    <p class="font-light text-xl md:text-2xl text-white bg-[#1F1F21] w-full md:w-[400px] h-full py-3 pl-0 md:pl-10 flex justify-center md:justify-start items-center">AIに何度言ってもなおらない</p>
+                    <p class="font-light text-xl xl:text-2xl text-white bg-[#1F1F21] w-full md:w-80 xl:w-[400px] h-full py-3 pl-0 md:pl-10 flex justify-center md:justify-start items-center">AIに何度言ってもなおらない</p>
                     <svg class="w-3 md:w-4 h-auto rotate-90 md:rotate-0 -m-5 md:-m-0" viewBox="0 0 16 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M-2.79753e-06 0L0 64L16 31.9111L-2.79753e-06 0Z" fill="#1F1F21"/>
                     </svg>
-                    <p class="text-xl md:text-2xl text-[#008BAB] h-full flex items-center pl-0 md:pl-10 pt-4 md:pt-0 pb-3 md:pb-0">AIが指示するほどに学習してくる</p>
+                    <p class="text-xl xl:text-2xl text-[#008BAB] h-full flex items-center pl-0 md:pl-10 pt-4 md:pt-0 pb-3 md:pb-0">AIが指示するほどに学習してくる</p>
                 </div>
             </div>
         </div>
@@ -357,7 +357,7 @@
             <div class="max-w-[1080px] mx-auto pt-8 md:pt-16 px-6 xl:px-0 space-y-6 md:space-y-10">
                 <div class="relative bg-white border-2 border-shark-950 px-6 md:px-10 py-6 md:py-12 rounded-2xl overflow-hidden">
                     <p class="text-broom-500 opacity-50 text-7xl md:text-9xl absolute -top-2 md:-top-4 left-0 roboto">01</p>
-                    <div class="flex flex-col md:flex-row relative justify-between">
+                    <div class="flex flex-col lg:flex-row relative justify-between">
                         <div>
                             <p class="text-xl md:text-2xl">8つのAIを一元管理</p>
                             <p class="text-base md:text-xl pt-1">8つのAIを1つのアカウントで利用可能</p>
@@ -366,13 +366,13 @@
                                 <li>個別契約をするよりNuraと一元契約をしたほうが遥かにお得</li>
                             </ul>
                         </div>
-                        <img src="./src/images/feature-list1-pc.webp" alt="" class="hidden md:block w-[464px]">
-                        <img src="./src/images/feature-list1-sp.webp" alt="" class="block md:hidden w-72 pt-6">
+                        <img src="./src/images/feature-list1-pc.webp" alt="" class="hidden xl:block w-[464px]">
+                        <img src="./src/images/feature-list1-sp.webp" alt="" class="block xl:hidden w-72 pt-6">
                     </div>
                 </div>
                 <div class="relative bg-white border-2 border-shark-950 px-6 md:px-10 py-6 md:py-12 rounded-2xl overflow-hidden">
                     <p class="text-broom-500 opacity-50 text-7xl md:text-9xl absolute -top-2 md:-top-4 left-0 roboto">02</p>
-                    <div class="flex flex-col md:flex-row relative justify-between">
+                    <div class="flex flex-col lg:flex-row relative justify-between">
                         <div>
                             <p class="text-base md:text-lg">誰もが簡単に使いこなせる</p>
                             <p class="text-xl md:text-2xl">プロンプトライブラリー</p>
@@ -382,8 +382,8 @@
                                 <li>メニューから選ぶだけで簡単に誰でも高度なAI活用が可能</li>
                             </ul>
                         </div>
-                        <img src="./src/images/feature-list2-pc.png" alt="" class="hidden md:block w-[512px]">
-                        <img src="./src/images/feature-list2-sp.png" alt="" class="block md:hidden w-72 pt-6">
+                        <img src="./src/images/feature-list2-pc.png" alt="" class="hidden lg:block w-[512px]">
+                        <img src="./src/images/feature-list2-sp.png" alt="" class="block lg:hidden w-72 pt-6">
                     </div>
                 </div>
                 <div class="flex flex-col md:flex-row gap-6 md:gap-10">
@@ -428,7 +428,7 @@
         <div class="pt-12 md:pt-20 relative z-50">
             <p class="text-[#0D84FF] roboto text-2xl text-center">PRODUCTIVITY</p>
             <p class="text-xl md:text-3xl pt-2 md:pt-4 text-center">あなたの生産性を向上させる<br class="block md:hidden"/>｢業務特化型AIエージェント｣搭載</p>
-            <div class="max-w-[1200px] mx-auto grid grid-cols-1 md:grid-cols-3 gap-6 pt-6 md:pt-16 px-6 xl:px-0">
+            <div class="max-w-[1200px] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 pt-6 md:pt-16 px-6 xl:px-0">
                 <?php
                     $array = [
                         [
@@ -805,19 +805,19 @@
             <p class="text-[#0D84FF] roboto text-2xl text-center">USABILITY</p>
             <p class="text-2xl md:text-3xl pt-2 md:pt-4 text-center">法人利用専門AIならではの<br class="block md:hidden"/>使いやすさ</p>
             <div class="max-w-[800px] mx-auto pt-6 md:pt-16 px-6 lg:px-0">
-                <div class="flex flex-col md:flex-row justify-between gap-6 md:gap-0">
+                <div class="flex flex-col md:flex-row justify-between gap-6 lg:gap-0">
                     <div class="rounded-lg overflow-hidden">
                         <p class="bg-[#BFC8D9] text-center text-lg md:text-xl py-1">AIの個人利用</p>
-                        <div class="flex items-center gap-6 md:gap-8 bg-white p-6 md:p-8">
+                        <div class="flex items-center gap-6 lg:gap-8 bg-white p-6 lg:p-8">
                             <img src="./src/images/usability1.svg" alt="" class="w-auto h-28">
-                            <p class="text-base md:text-lg font-medium">恋愛相談など<br/>多様な使い方<br/>万能型AIが必要</p>
+                            <p class="text-base lg:text-lg font-medium">恋愛相談など<br/>多様な使い方<br/>万能型AIが必要</p>
                         </div>
                     </div>
                     <div class="rounded-lg overflow-hidden">
                         <p class="bg-broom-500 text-center text-xl py-1">AIの法人利用</p>
-                        <div class="flex items-center gap-6 md:gap-8 bg-white p-6 md:p-8">
+                        <div class="flex items-center gap-6 lg:gap-8 bg-white p-6 lg:p-8">
                             <img src="./src/images/usability2.svg" alt="" class="w-auto h-24 md:h-28">
-                            <p class="text-base lg:text-xl">余計な万能さは<br/>ノイズになる</p>
+                            <p class="text-base lg:text-lg">余計な万能さは<br/>ノイズになる</p>
                         </div>
                     </div>
                 </div>
@@ -837,7 +837,7 @@
                     </div>
                     <div class="p-5">
                         <div class="flex flex-col md:flex-row items-start md:items-center gap-1 md:gap-5">
-                            <p class="text-sm md:text-base bg-broom-500 bg-opacity-30 w-24 md:w-28 h-max text-center">使用ツール</p>
+                            <p class="text-sm md:text-base bg-broom-500 bg-opacity-30 w-24 md:w-28 h-max text-center shrink-0">使用ツール</p>
                             <p class="text-base md:text-lg">コアエージェント「NURA」</p>
                         </div>
                         <div class="flex flex-col md:flex-row gap-1 md:gap-5 pt-3">
@@ -856,7 +856,7 @@
                     </div>
                     <div class="p-5">
                         <div class="flex flex-col md:flex-row items-start md:items-center gap-1 md:gap-5">
-                            <p class="text-sm md:text-base bg-broom-500 bg-opacity-30 w-24 md:w-28 h-max text-center">使用ツール</p>
+                            <p class="text-sm md:text-base bg-broom-500 bg-opacity-30 w-24 md:w-28 h-max text-center shrink-0">使用ツール</p>
                             <p class="text-base md:text-lg">プロンプトライブラリー</p>
                         </div>
                         <div class="flex flex-col md:flex-row gap-1 md:gap-5 pt-3">
@@ -875,7 +875,7 @@
                     </div>
                     <div class="p-5">
                         <div class="flex flex-col md:flex-row items-start md:items-center gap-1 md:gap-5">
-                            <p class="text-sm md:text-base bg-broom-500 bg-opacity-30 w-24 md:w-28 h-max text-center">使用ツール</p>
+                            <p class="text-sm md:text-base bg-broom-500 bg-opacity-30 w-24 md:w-28 h-max text-center shrink-0">使用ツール</p>
                             <p class="text-lg">各種専門AIエージェントの使い分け</p>
                         </div>
                         <div class="flex flex-col md:flex-row gap-1 md:gap-5 pt-3">
@@ -894,7 +894,7 @@
                     </div>
                     <div class="p-5">
                         <div class="flex flex-col md:flex-row items-start md:items-center gap-1 md:gap-5">
-                            <p class="text-sm md:text-base bg-broom-500 bg-opacity-30 w-24 md:w-28 h-max text-center">使用ツール</p>
+                            <p class="text-sm md:text-base bg-broom-500 bg-opacity-30 w-24 md:w-28 h-max text-center shrink-0">使用ツール</p>
                             <p class="text-lg">プロンプト作成用エージェント｢Nura.promptpilot｣を使用</p>
                         </div>
                         <div class="flex flex-col md:flex-row gap-1 md:gap-5 pt-3">
@@ -913,7 +913,7 @@
                     </div>
                     <div class="p-5">
                         <div class="flex flex-col md:flex-row items-start md:items-center gap-1 md:gap-5">
-                            <p class="text-sm md:text-base bg-broom-500 bg-opacity-30 w-24 md:w-28 h-max text-center">使用ツール</p>
+                            <p class="text-sm md:text-base bg-broom-500 bg-opacity-30 w-24 md:w-28 h-max text-center shrink-0">使用ツール</p>
                             <p class="text-lg">AIエージェントの作成用｢Nura.agentarchitect｣を使用</p>
                         </div>
                         <div class="flex flex-col md:flex-row gap-1 md:gap-5 pt-3">
@@ -940,54 +940,54 @@
     </div>
     <div class="bg-shark-950 pt-12 md:pt-16 pb-16 md:pb-20 px-6 md:px-32">
         <img src="./src/images/company-logo.svg" alt="" class="w-56 h-auto">
-        <div class="pt-10 flex flex-col md:flex-row gap-6 md:gap-11">
+        <div class="pt-10 flex flex-col lg:flex-row gap-6 lg:gap-11">
             <p class="font-medium text-lg md:text-2xl text-white">株式会社APOLLO11</p>
-            <table class="text-white text-sm md:text-base font-light">
-                <tr class="block md:table-row border-b border-[#BFC8D933]">
-                    <th class="block md:table-cell w-full md:w-36 align-top text-left py-3">
+            <table class="text-white text-sm lg:text-base font-light">
+                <tr class="block lg:table-row border-b border-[#BFC8D933]">
+                    <th class="block lg:table-cell w-full lg:w-36 align-top text-left py-3">
                         住所
                     </th>
-                    <td class="block md:table-cell pt-0 md:pt-3 pb-3">
-                        本社：<br class="block md:hidden"/>愛知県名古屋市昭和区桜山町5-99-6桜山駅前ビル6F<br/>
-                        StationAIオフィス：<br class="block md:hidden"/>愛知県名古屋市昭和区鶴舞1丁目2番32号<br/>
-                        東京オフィス：<br class="block md:hidden"/>東京都目黒区自由が丘1丁目3-22 自由が丘アッシュ201
+                    <td class="block lg:table-cell pt-0 lg:pt-3 pb-3">
+                        本社：<br class="block lg:hidden"/>愛知県名古屋市昭和区桜山町5-99-6桜山駅前ビル6F<br/>
+                        StationAIオフィス：<br class="block lg:hidden"/>愛知県名古屋市昭和区鶴舞1丁目2番32号<br/>
+                        東京オフィス：<br class="block lg:hidden"/>東京都目黒区自由が丘1丁目3-22 自由が丘アッシュ201
                     </td>
                 </tr>
-                <tr class="block md:table-row border-b border-[#BFC8D933]">
-                    <th class="block md:table-cell w-full md:w-36 align-top text-left py-3">
+                <tr class="block lg:table-row border-b border-[#BFC8D933]">
+                    <th class="block lg:table-cell w-full lg:w-36 align-top text-left py-3">
                         役員構成
                     </th>
-                    <td class="block md:table-cell pt-0 md:pt-3 pb-3">
+                    <td class="block lg:table-cell pt-0 lg:pt-3 pb-3">
                         代表取締役 吉丸彰<br/>取締役CTO EWDISON THEN
                     </td>
                 </tr>
-                <tr class="block md:table-row border-b border-[#BFC8D933]">
-                    <th class="block md:table-cell w-full md:w-36 align-top text-left py-3">
+                <tr class="block lg:table-row border-b border-[#BFC8D933]">
+                    <th class="block lg:table-cell w-full lg:w-36 align-top text-left py-3">
                         設立
                     </th>
-                    <td class="block md:table-cell pt-0 md:pt-3 pb-3">
+                    <td class="block lg:table-cell pt-0 lg:pt-3 pb-3">
                         2011年4月28日
                     </td>
                 </tr>
-                <tr class="block md:table-row border-b border-[#BFC8D933]">
-                    <th class="block md:table-cell w-full md:w-36 align-top text-left py-3">
+                <tr class="block lg:table-row border-b border-[#BFC8D933]">
+                    <th class="block lg:table-cell w-full lg:w-36 align-top text-left py-3">
                         事業内容
                     </th>
-                    <td class="block md:table-cell pt-0 md:pt-3 pb-3">
+                    <td class="block lg:table-cell pt-0 lg:pt-3 pb-3">
                         SaaS事業、AIプラットフォーム開発
                     </td>
                 </tr>
-                <tr class="block md:table-row border-b border-[#BFC8D933]">
-                    <th class="block md:table-cell w-full md:w-36 align-top text-left py-3">
+                <tr class="block lg:table-row border-b border-[#BFC8D933]">
+                    <th class="block lg:table-cell w-full lg:w-36 align-top text-left py-3">
                         取引銀行
                     </th>
-                    <td class="block md:table-cell pt-0 md:pt-3 pb-3">
+                    <td class="block lg:table-cell pt-0 lg:pt-3 pb-3">
                         名古屋銀行 川原通支店 / 中京銀行 今池支店
                     </td>
                 </tr>
             </table>
         </div>
-        <p class="text-[#FFFFFFB2] font-light text-xs md:text-base text-end pt-8 md:pt-14">Copyright(C) APOLLO11 all rights reserved.</p>
+        <p class="text-[#FFFFFFB2] font-light text-xs lg:text-base text-end pt-8 lg:pt-14">Copyright(C) APOLLO11 all rights reserved.</p>
 
 
     </div>
